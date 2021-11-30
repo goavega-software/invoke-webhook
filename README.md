@@ -16,7 +16,7 @@ spec:
         spec:
           containers:
           - name: hello
-            image: goavega-software/invoke-webhook
+            image: goavega/invoke-webhook
             imagePullPolicy: IfNotPresent
             env:
             - name: URL
